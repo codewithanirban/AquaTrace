@@ -17,7 +17,7 @@ class JoystickTeleop:
         self.inertia_enabled = True
         self.damping_factor = 0.5  # How quickly speed reduces (0.1-0.9)
         self.angular_damping = 0.5  # Different damping for rotation
-        
+
         # Current velocities (for inertia)
         self.current_linear_x = 0.0
         self.current_linear_y = 0.0
