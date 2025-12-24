@@ -28,7 +28,7 @@ class RobotMarkerPublisher:
         self.marker.color.r = 0.0
         self.marker.color.g = 0.0
         self.marker.color.b = 1.0  # Blue color
-        self.marker.color.a = 1.0  # Opaque
+        self.marker.color.a = 0.5  # Semi-transparent
 
         self.marker.lifetime = rospy.Duration() # 0 means forever
 
